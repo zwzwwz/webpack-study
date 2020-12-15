@@ -14,7 +14,7 @@ module.exports = {
 			return 'webpack'
 		}
 	},
-	mode: "production",
+	mode: "development",
 	devServer: {
 		lazy: false,
 		filename: "someLibName.js",
