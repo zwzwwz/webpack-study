@@ -1,0 +1,184 @@
+h1 {
+	color: blue;
+}
+
+html {
+	overflow-x: hidden;
+	font-family: Microsoft YaHei;
+}
+
+body {
+	color: #999;
+}
+
+a {
+	color: #999;
+}
+
+.topbar {
+	background-color: #f7f7f7;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.topbar .divide {
+	margin: 0 10px;
+}
+
+.wrap {
+	width: 1000px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.topbar .lt-bar li {
+	float: left;
+}
+
+.rt-bar>* {
+	float: left;
+	margin-right: 20px;
+}
+
+.rt-bar .J_login {
+	border-bottom: 1px solid #999
+}
+
+.game-header {
+	background-color: #fff;
+	height: 80px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.game-header .game-head-nav li {
+	float: left;
+	margin: 0 35px;
+	line-height: 80px;
+}
+
+.game-header .game-head-nav li a {
+	font-size: 16px;
+	color: #000
+}
+
+.game-header .game-head-nav li a:hover .gamelist {
+	display: block;
+}
+
+.game-header .game-head-nav li a em {
+	margin-left: 4px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: solid 5px #444;
+	border-style: solid dashed dashed dashed;
+	border-color: #444 transparent transparent;
+	border-bottom: none;
+	vertical-align: middle;
+}
+
+.game-header .gamelist {
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	border: 1px solid #e8e8e8;
+	border-top: 0px;
+	z-index: 5;
+	overflow: hidden;
+	width: 1000px;
+}
+
+.game-header .gamelist>div {
+	float: left;
+	width: 50%;
+}
+
+.game-header .gamelist>div.lianyun-game {
+	width: 420px;
+}
+
+.game-header .gamelist div h3 {
+	background-color: #f6f6f6;
+	color: #000;
+	border-bottom: 1px solid #e8e8e8;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 28px;
+	font-size: 14px;
+}
+
+.game-header .gamelist .list .g-list {
+	width: 125px;
+	line-height: 33px;
+	height: 33px;
+	float: left;
+}
+
+.game-header .gamelist .g-list div {
+	float: left;
+	width: 25px;
+	margin: 2px 3px 0px 0px;
+}
+
+i.H {
+	background-color: #f06400;
+}
+
+i.N {
+	background-color: #8bc73b;
+}
+
+i.B {
+	background-color: #029fe5;
+}
+
+.game-header .gamelist .g-list div i,
+.game-list li i {
+	float: right;
+	font-size: 12px;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-family: Shruti;
+}
+
+.game-header .gamelist .g-list a {
+	float: left;
+	font-size: 12px;
+	line-height: 15px;
+	max-width: 80%;
+}
+
+.game-header .gamelist .mobile-game-list {
+	position: relative;
+}
+
+.game-header .gamelist .mobile-game-list::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 50000px;
+	width: 1px;
+	background: #e8e8e8;
+}
+
+.game-header .gamelist .mobile-game-list::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 50000px;
+	width: 1px;
+	background: #e8e8e8;
+}
+
+.game-header .gamelist .list {
+	padding-top: 15px;
+}
